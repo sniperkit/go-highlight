@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package trie
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestTrieEmpty(t *testing.T) {
 	var trie Trie

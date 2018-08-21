@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 const hljs = require('highlight.js');
 const fs = require('fs');
 const path = require('path');
@@ -85,7 +90,7 @@ fs.readdir(dir, (err, files) => {
         const json = JSON.stringify(def).replace(/`/g, "`+\"`\"+`");
         fs.writeFile("languages/"+lang+".go",
 `package languages
-import "github.com/d4l3k/go-highlight/registry"
+import "github.com/sniperkit/snk.fork.go-highlight/registry"
 func init() {
   registry.Register(${goArray(aliases)}, \`${json}\`)
 }`, (err) => {

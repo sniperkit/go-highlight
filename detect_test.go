@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package highlight
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestDetect(t *testing.T) {
 	cases := []struct {

@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package highlight
 
 import (
 	"sync"
 
-	"github.com/d4l3k/go-highlight/registry"
 	pcre "github.com/gijsbers/go-pcre"
+
+	"github.com/sniperkit/snk.fork.go-highlight/registry"
 )
 
 // Workers is the number of workers to use to detect the language.

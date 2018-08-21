@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -7,8 +12,9 @@ import (
 	"log"
 	"os"
 
-	highlight "github.com/d4l3k/go-highlight"
 	"github.com/fatih/color"
+
+	highlight "github.com/sniperkit/snk.fork.go-highlight"
 )
 
 var (

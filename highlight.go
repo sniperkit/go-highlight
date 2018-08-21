@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package highlight
 
 import (
@@ -8,12 +13,13 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/d4l3k/go-highlight/registry"
 	pcre "github.com/gijsbers/go-pcre"
 	"github.com/pkg/errors"
 
+	"github.com/sniperkit/snk.fork.go-highlight/registry"
+
 	// Import for language registration side-effect.
-	_ "github.com/d4l3k/go-highlight/languages"
+	_ "github.com/sniperkit/snk.fork.go-highlight/languages"
 )
 
 // The text highlight classes.

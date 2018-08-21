@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package highlight
 
 import (
@@ -5,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/d4l3k/go-highlight/registry"
+	"github.com/sniperkit/snk.fork.go-highlight/registry"
 )
 
 type highlightCase struct {
